@@ -1,0 +1,9 @@
+# MCP Core SDK and server tools
+mcp[cli]>=1.3.0
+
+# Simplified high-level framework for MCP servers
+fastmcp>=0.4.1
+
+# HTTP server implementation (required for the streamable-http transport)
+uvicorn>=0.34.0
+starlette>=0.45.2
