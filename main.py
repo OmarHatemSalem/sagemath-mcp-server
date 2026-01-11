@@ -13,6 +13,7 @@ mcp = FastMCP(
     name="sagemath-server",
     host="0.0.0.0",
     port=8000,
+    instructions="A SageMath MCP server that provides GAP (Groups, Algorithms, Programming) functionality. Use get_group_info to retrieve information about mathematical groups including their order, abelianity, generators, and center.",
 )
 
 # Define a tool
